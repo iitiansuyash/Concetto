@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  background-color: #111111;
+}
+
+@font-face {
+  font-family: "vanguardcf";
+  font-weight: "heavy";
+  src: url("./fonts/vanguardcf-heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "vanguardcf";
+  font-weight: "bold";
+  src: url("./fonts/vanguardcf-bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "vanguardcf";
+  font-weight: "extrabold";
+  src: url("./fonts/vanguardcf-extrabold.otf") format("opentype");
+}
