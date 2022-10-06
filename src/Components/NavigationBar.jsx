@@ -82,7 +82,9 @@ function NavigationBar() {
                         </Offcanvas.Header> */}
                         <StyledOffcanvasBody>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                                <StyledNavLink href="#">HOME</StyledNavLink>
+                                <StyledNavLink href="/">HOME</StyledNavLink>
+                                <StyledNavLink href="/#about">ABOUT US</StyledNavLink>
+                                <StyledNavLink href="/#events">EVENTS</StyledNavLink>
                             </Nav>
                         </StyledOffcanvasBody>
                     </Navbar.Offcanvas>
