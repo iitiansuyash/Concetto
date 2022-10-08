@@ -4,7 +4,7 @@ const Footer = () => {
     return ( 
         <>
             <div className={styles.footer}>
-                FOOTER
+                CONCETTO 2K22 | IIT(ISM) Dhanbad
             </div>
         
         </>

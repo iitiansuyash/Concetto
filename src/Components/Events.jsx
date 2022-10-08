@@ -4,6 +4,20 @@ import styled from "styled-components"
 const StyledHr = styled.hr`
     color: white;
 `
+const StyledTitle = styled.h1`
+    font-size: 105px;   
+    font-family: 'vanguardcf';
+    font-weight: 'heavy';
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 50px;
+    background: -webkit-linear-gradient(#ff66cb, #40ddff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: -2px;
+`
+
 const StyledSubTitle = styled.h2`
     font-size: 32px;
     padding-top: 0px 4px 0px 4px;
@@ -22,7 +36,7 @@ const StyledSubTitle = styled.h2`
 const Events = () => {
     return ( 
         <>
-            <StyledHr />
+            {/* <StyledHr />
             <div style={{ height: "10vh", width: "100%" }}>
                 <div>
                     <StyledSubTitle><h1>EVENTS</h1></StyledSubTitle>
@@ -119,7 +133,8 @@ const Events = () => {
                     </div>
                     </a>
                 </li>
-            </ul>
+            </ul> */}
+            {/* <StyledTitle>COMING SOON</StyledTitle> */}
         </>
      );
 }

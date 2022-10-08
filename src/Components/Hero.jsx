@@ -4,7 +4,7 @@ import GLOBE from "vanta/dist/vanta.globe.min.js";
 import styled from "styled-components";
 
 const StyledTitle = styled.h1`
-    font-size: 128px;   
+    font-size: 105px;   
     font-family: 'vanguardcf';
     font-weight: 'heavy';
     text-align: left;
@@ -83,7 +83,7 @@ class Hero extends React.Component {
                     <StyledSubTitle>REALITY BEYOND VISION</StyledSubTitle>
                     <StyledSubTitle>21 to 23 OCTOBER</StyledSubTitle>
                     <StyledSubTitle>IIT ISM DHANBAD</StyledSubTitle>
-                    <StyledButton>REGISTRATIONS SOON</StyledButton>
+                    <StyledButton>REGISTRATIONS NOW</StyledButton>
                 </div>
             </div>
         );
